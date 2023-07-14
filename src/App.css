@@ -7,6 +7,9 @@
 }
 
 .app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
   object-fit: contain;
   background-color: white;
@@ -27,4 +30,6 @@
 
 .app__posts {
   padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
